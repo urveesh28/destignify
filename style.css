@@ -251,14 +251,21 @@
 			opacity:1;
 		}
 		
-		.card > p{
+		.card  p{
 			font-family:"Times",sans-serif;
 			font-size:1rem;
 			padding-left:0.5rem;
 			padding-right:0.5rem;
-			text-align:justify;
+			text-align:center;
+			margin-top:0.5rem;
 		}
 		
+		.card li{
+			font-family:Calibri;
+			font-weight:bold;
+			text-align:center;
+			margin-top:5em;
+		}
 		.card a{
 			text-decoration:none;
 			color:white;
@@ -285,12 +292,6 @@
 			border-top-left-radius:10px;
 			border-top-right-radius:10px;
 			
-		}
-		
-		
-		
-		.card p{
-			text-align:center;
 		}
 		
 		.theory{
