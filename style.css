@@ -6,7 +6,7 @@
 		
 		body{
             width:100%;
-			background:lightgrey;
+			background:linear-gradient(white,lightblue,white);
 			background-repeat:no-repeat;
 			background-size:100%;
 			background-attachment:fixed;
@@ -597,13 +597,14 @@
 			height:20rem;
 			margin:5rem 0rem 0rem 0rem;
 			padding:0rem;
-			background-color:#113448;
+			background:#113448;
 			color:white;
 			display:flex;
 			flex-direction:row;
 			justify-content:space-around;
 			align-items:center;
-			overflow:hidden;
+			
+			/* border:1px solid black; */
 		}
 		
 		
