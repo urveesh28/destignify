@@ -190,7 +190,7 @@
 		
 		.card2 img:hover{
 			width:130%;
-			box-shadow:black 0px 0px 20px;
+			box-shadow:black 20px 20px 30px;
 		}
 		
 		/*.container3{
@@ -271,7 +271,7 @@
 		}
 		
 		div.card:hover{
-			box-shadow:0px 0px 30px #16A085,0px 0px 20px black ;
+			box-shadow:0px 10px 0px #16A085,0px 0px 30px #16A085;
 			border:1px soild white;
 			opacity:1;
 		}
@@ -405,19 +405,41 @@
 			
 		}
 		
+		#div{
+			/* border:1px solid black; */
+			width:80%;
+			height:3em;
+			position:relative;
+			top:2em;
+			left:5em;
+			padding:2px 0px;
+		}
 		
-		.form-id p{ 
-			text-align:center;
+		#div div{
+			width:15%;
+			/* border:1px solid blue; */
+			height:auto;
+			padding:1px;
+			position:relative;
+			left:23em;
+		}
+		
+		#div img{
+			width:100%;
+			height:auto;
+		}
+		
+		#div p{ 
+			
 			font-family:"Calibri" , sans-seriff;
 			font-size:1.3rem;
 			font-weight:bold;
 			color:#16A085;
-			float:right;
 			display:inline;
-			margin-right:0;
 			
 		}
 		
+	
 		form{
 			margin:2rem 2rem 2rem 2rem;
 			padding:1rem;
@@ -439,16 +461,10 @@
 		}
 		
 		.input-fields:hover {
-			outline:1px solid grey;
+			outline:2px solid grey;
 		}
 		
-		
-		.input-fileds :hover{
-			background-color:grey;
-			
-		}
-		
-		form > input[placeholder]
+		form  input[placeholder]
 		{
 			color:purple;
 		}
