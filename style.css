@@ -6,7 +6,7 @@
 		
 		body{
             width:100%;
-			background:lightgrey;
+			background:linear-gradient(white,lightblue,white);
 			background-repeat:no-repeat;
 			background-size:100%;
 			background-attachment:fixed;
@@ -262,17 +262,17 @@
 			margin:2rem;
 			width:300px;
 			height:auto;
-			border:1px solid #16A085;
+			/* border:1px solid #16A085; */
 			border-radius:10px;
-			padding:0px;
+			padding:5px;
 			opacity:0.8;
 			transition: all 0.2s;
 			background-color:white;
 		}
 		
 		div.card:hover{
-			box-shadow:0px 0px 30px #16A085 ;
-			border:1px soilid white;
+			box-shadow:0px 0px 30px #16A085,0px 0px 20px black ;
+			border:1px soild white;
 			opacity:1;
 		}
 		
@@ -291,11 +291,15 @@
 			text-align:center;
 			margin-top:5em;
 		}
+		
 		.card a{
 			text-decoration:none;
 			color:white;
 			padding:8px 16px;
-			margin-left:7rem;
+			margin:1em auto;
+			position:relative;
+			left:7.5em;
+			top:1em;
 			background-color:#16A085;
 			font-family:Helvetica;
 			font-weight:bold;
@@ -597,13 +601,14 @@
 			height:20rem;
 			margin:5rem 0rem 0rem 0rem;
 			padding:0rem;
-			background-color:#113448;
+			background:#113448;
 			color:white;
 			display:flex;
 			flex-direction:row;
 			justify-content:space-around;
 			align-items:center;
-			overflow:hidden;
+			
+			/* border:1px solid black; */
 		}
 		
 		
