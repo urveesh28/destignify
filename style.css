@@ -678,5 +678,20 @@
 			right:1px;
 		}
 		
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+			box-shadow: inset 0 0 5px grey;
+			border-radius:0px;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background:#113448;
+			border-radius: 0px;
+		}
 		
 		
