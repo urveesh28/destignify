@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -157,13 +158,16 @@
 			</div>
 			
 			<form action="" method="get" >
-				<input type="text" name="name" class="input-fields" placeholder="Name">
+				<label>Name</label>
+				<input type="text" name="fullname" class="input-fields" placeholder="Enter your name" required>
 				<br>
-				<input type="email" name="email" class="input-fields" placeholder="Email">
+				<label>Email</label>
+				<input type="email" name="email" class="input-fields" placeholder="Enter your email" required>
 				<br>
-				<textarea cols="50" rows="5" placeholder="Add something" class="input-fields" name="text" style="resize:none"></textarea>
+				<label>Message</label>
+				<textarea cols="50" rows="5" placeholder="Add something" class="input-fields" name="message" style="resize:none"></textarea>
 				<br>
-				<button type="submit" class="button">submit</button>
+				<button type="submit" class="button" name="submit">submit</button>
 				<!-- <input type="time"><br><input type="file" placeholder="choose file">   -->
 			</form><!--end of form -->
 		</div><!--end of form-id class-->
